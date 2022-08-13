@@ -113,11 +113,12 @@ ul>li>a {
     margin-top: 5rem;
 }
 
-.hero>img {
-    width: 60%;
+.hero > .image_div >img {
+    width: 115%;
     position: relative;
-    left: 6rem;
+    left: -2rem;
 }
+
 
 
 
@@ -126,11 +127,10 @@ ul>li>a {
         line-height: initial;
     }
 
-    .hero>img {
-        /* position: absolute;
-        z-index: -999;
-        left: 20%; */
-        display: none;
+    .hero > .image_div >img {
+        width: 60%;
+        position: relative;
+        left: 6rem;
     }
 
     nav {
@@ -157,6 +157,7 @@ ul>li>a {
 
     .hero {
         justify-content: center;
+        flex-direction: column-reverse;
     }
 
     .hero_left>p {
@@ -165,6 +166,10 @@ ul>li>a {
         font-size: 1.3rem;
         font-weight: 600;
         /* text-shadow: 0 0 10px var(--primary-blue); */
+    }
+
+    .image_div {
+
     }
 
 }
